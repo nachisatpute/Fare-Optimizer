@@ -5,14 +5,8 @@ Created on Sat Sep 28 09:38:16 2019
 @author: Nachiket
 """
 import pyrebase as pb
-config={"apiKey": "AIzaSyB4s-zOO50DyIduVkWWYb9c6c1DT97VBqg",
-    "authDomain": "myshop-76cba.firebaseapp.com",
-    "databaseURL": "https://myshop-76cba.firebaseio.com",
-    "projectId": "myshop-76cba",
-    "storageBucket": "",
-    "messagingSenderId": "187498078910",
-    "appId": "1:187498078910:web:29abd27a8f762f6b0174ef"
-      }
+config={"Your Credentials
+      "}
 import matplotlib.pyplot as plt
 import numpy as np
 from sklearn.cluster import KMeans
@@ -65,7 +59,6 @@ while i<70:
                 d={"lan":l[1],"lon":l[0],"price":l[2]}
                 ab.child("College").child("sample").child("cor").child(count).set(d)
                 count=count+1
-                
-        #firebase.database().child("College").child("sample").remove();
+
     if cc[0]==99:
         break
