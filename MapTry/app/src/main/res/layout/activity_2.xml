@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#51575A"
+    tools:context=".Activity2">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ENTER DETAILS"
+        android:textSize="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:textColor="#E8F3F5"
+        />
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="User Name"
+        android:textSize="25dp"
+        android:layout_below="@+id/tv1"
+        android:layout_marginTop="40dp"
+        android:textColor="#E8F3F5"
+        />
+    <EditText
+        android:id="@+id/edt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv2"
+        android:layout_marginTop="20dp"
+        android:textColor="#E8F3F5"
+        />
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Range of Hotspots(in km)"
+        android:textSize="25dp"
+        android:layout_below="@+id/edt1"
+        android:layout_marginTop="40dp"
+        android:textColor="#E8F3F5"
+        />
+    <EditText
+        android:id="@+id/edt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv3"
+        android:layout_marginTop="20dp"
+        android:textColor="#E8F3F5"
+        />
+    <Button
+        android:id="@+id/bt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_below="@+id/edt2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:shape="rectangle"
+        android:textColor="#343839"
+        android:textSize="25dp"/>
+
+</RelativeLayout>
